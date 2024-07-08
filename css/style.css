@@ -1,4 +1,8 @@
 
+html{
+    font-size: 62.5%;
+}
+
 
 body{
     background-color: lightgreen;
@@ -35,24 +39,24 @@ body{
 .btnSubmit{
     background-color: lightgreen;
     cursor: pointer;
-    height: 30px;
+    height: 3rem;
 }
 
 .submit{
-    margin: 5px;
+    margin: 5rem;
     display: flex;
     justify-content: center;
 }
 
 .label{
-    font-size: 17px;
+    font-size: 1.7rem;
 }
 
 
 .form input:not(.radioBtnMale, .radioBtnFemale){
-    margin-bottom: 10px;
-    height: 25px;
-    width: 350px;
+    margin-bottom: 1rem;
+    height: 2.5rem;
+    width: 35rem;
 }
 
 .gender{
@@ -60,4 +64,5 @@ body{
     flex-direction: row;
     justify-content: space-around;
     max-width: 35%;
+    font-size: 1.5rem;
 }
