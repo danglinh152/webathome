@@ -1,0 +1,63 @@
+
+
+body{
+    background-color: lightgreen;
+}
+
+.container{
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+
+.form{
+    background-color: aliceblue;
+    height: 100%;
+    width: 35%;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* .info-form{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+} */
+
+
+
+.btnSubmit{
+    background-color: lightgreen;
+    cursor: pointer;
+    height: 30px;
+}
+
+.submit{
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.label{
+    font-size: 17px;
+}
+
+
+.form input:not(.radioBtnMale, .radioBtnFemale){
+    margin-bottom: 10px;
+    height: 25px;
+    width: 350px;
+}
+
+.gender{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 35%;
+}
